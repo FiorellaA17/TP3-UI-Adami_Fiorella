@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle del producto</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/detailsProduct.css">
+    <script src="https://kit.fontawesome.com/f222217ad3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html" class="logo-ref">
+        <img src="img/Logo-removebg.png" alt="Logo">
+        <span class="store-name">Octopustore</span>
+      </a>      
+    </div>
+              
+    <div class="right-menu">
+      <a href="sale.html">Ventas</a>
+      <div class="right-menu-cart">
+        <div id="cart--notification">0</div>
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+    </div>
+
+  </header>  
+
+  <main class="main-container">
+    <div class="loader-container">
+      <div class="loader"></div>
+    </div>
+    <div id="details-product" class="details-product"></div>
+  </main>
+
+  <div id="maxQuantityModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <div class="modal-body">
+        <p id="maxQuantityMessage"></p>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <p class="about">OctopuStore es una reconocida tienda de retail con presencia en varias ciudades del país. Estamos comprometidos con ofrecer productos de calidad y un excelente servicio a nuestros clientes.</p>
+    <p class="rights">© 2024 OctopuStore | Todos los derechos reservados</p>
+    <p class="credit">Desarrollado por Fiorella Adami - Proyecto de Software - Universidad Nacional Arturo Jauretche</p>
+  </footer>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="js/utils.js" defer></script>
+  <script src="js/detailsProduct.js" defer></script>
+
+</body>
+</html>
