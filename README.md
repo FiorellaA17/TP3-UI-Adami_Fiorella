@@ -10,7 +10,7 @@ El sistema permite visualizar productos, realizar ventas múltiples, buscar o fi
 
 ## **Tecnologías Utilizadas**  
 - **Frontend:** HTML, CSS, JavaScript  
-- **Backend:** API REST desarrollada previamente (Trabajo Práctico 2)
+- **Backend:** API REST desarrollada previamente en el [TP2](https://github.com/FiorellaA17/TP2-REST-Adami_Fiorella) para suministrar los datos a la aplicación de frontend.
 
 ---
 
