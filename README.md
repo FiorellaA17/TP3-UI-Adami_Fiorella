@@ -1,5 +1,5 @@
 # **Sistema de Gestión de Ventas para Tienda de Retail**  
-Aplicación web desarrollada para automatizar y centralizar las transacciones comerciales de una tienda con presencia nacional.
+Aplicación web desarrollada para automatizar y centralizar las transacciones comerciales de una tienda con presencia nacional. Trabajo realizado para la materia proyecto de software.
 
 ---
 
